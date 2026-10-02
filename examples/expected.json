@@ -1,0 +1,61 @@
+{
+  "certificates": [
+    {
+      "block": "left",
+      "round": 0,
+      "validators": [
+        "a",
+        "b"
+      ],
+      "weight": 75
+    },
+    {
+      "block": "right",
+      "round": 0,
+      "validators": [
+        "a",
+        "b"
+      ],
+      "weight": 75
+    }
+  ],
+  "conflicts": [
+    {
+      "blocks": [
+        "left",
+        "right"
+      ],
+      "height": 1
+    }
+  ],
+  "duplicate_votes": 0,
+  "equivocating_weight": 75,
+  "equivocations": [
+    {
+      "blocks": [
+        "left",
+        "right"
+      ],
+      "height": 1,
+      "round": 0,
+      "validator": "a"
+    },
+    {
+      "blocks": [
+        "left",
+        "right"
+      ],
+      "height": 1,
+      "round": 0,
+      "validator": "b"
+    }
+  ],
+  "finalized_blocks": [
+    "g",
+    "left",
+    "right"
+  ],
+  "quorum_threshold": 67,
+  "safety_violation": true,
+  "total_weight": 100
+}

@@ -1,0 +1,46 @@
+{
+  "validators": {
+    "a": 40,
+    "b": 35,
+    "c": 25
+  },
+  "blocks": [
+    {
+      "id": "g",
+      "height": 0,
+      "parent": null
+    },
+    {
+      "id": "left",
+      "height": 1,
+      "parent": "g"
+    },
+    {
+      "id": "right",
+      "height": 1,
+      "parent": "g"
+    }
+  ],
+  "votes": [
+    {
+      "validator": "a",
+      "block": "left",
+      "round": 0
+    },
+    {
+      "validator": "b",
+      "block": "left",
+      "round": 0
+    },
+    {
+      "validator": "a",
+      "block": "right",
+      "round": 0
+    },
+    {
+      "validator": "b",
+      "block": "right",
+      "round": 0
+    }
+  ]
+}
